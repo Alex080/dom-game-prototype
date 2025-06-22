@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Игра "Дом" - Прототип</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Игра "Дом"</h1>
+  <p>Интерактивная командная игра. Вытягивайте карточки, бросайте кубик и двигайтесь по полю!</p>
+</header>
+
+<div class="container">
+
+  <!-- Игровое поле -->
+  <section class="game-board">
+    <h2>Игровое поле</h2>
+    <div id="board"></div>
+  </section>
+
+  <!-- Панель управления -->
+  <section class="controls">
+    <button id="drawCardBtn">Вытянуть карточку</button>
+    <button id="rollDiceBtn">Бросить кубик</button>
+    <div class="dice-result" id="diceResult"></div>
+  </section>
+
+  <!-- Карточка задания -->
+  <section class="card-section">
+    <h2>Карточка задания</h2>
+    <div id="cardDisplay">Здесь появится задание</div>
+  </section>
+
+</div>
+
+<!-- Скрипты -->
+<script src="script.js"></script>
+
+</body>
+</html>
