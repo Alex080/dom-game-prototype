@@ -51,7 +51,7 @@ const cardDisplay=document.getElementById('cardDisplay');
 drawCardBtn.onclick=()=>{
  const randIndex=Math.floor(Math.random()*cards.length);
  const card=cards[randIndex];
- cardDisplay.innerHTML= 'Задание '${card.type}' : '${card.text}';
+ cardDisplay.innerHTML = `Задание ${card.type}: ${card.text}`;
 };
 
 // Обработка броска кубика
