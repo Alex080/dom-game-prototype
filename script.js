@@ -60,6 +60,6 @@ const diceResult=document.getElementById('diceResult');
 
 rollDiceBtn.onclick=()=>{
  const roll=Math.floor(Math.random()*6)+1;
- diceResult.innerText= 'Выпало число' ${roll};
+ diceResult.innerText= 'Выпало число '${roll}';
  movePlayer(roll);
 };
